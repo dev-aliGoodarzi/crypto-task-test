@@ -1,0 +1,30 @@
+@import "./../../--veriables.scss";
+
+.customInput1Container,
+.textAreaContainer {
+  .titleClassName {
+    color: #b3b3b3;
+  }
+  .input {
+    background: $inputBg1;
+    height: 40px;
+    min-width: 340px;
+    font-size: 14px;
+    &::placeholder {
+      color: #717171;
+      font-size: 12px;
+    }
+    direction: rtl;
+  }
+
+  .textArea {
+    background: #f0f0f0;
+    min-width: 340px;
+    font-size: 14px;
+    &::placeholder {
+      color: #717171;
+      font-size: 14px;
+    }
+    direction: rtl;
+  }
+}

@@ -1,0 +1,37 @@
+.customInput1Container .titleClassName,
+.textAreaContainer .titleClassName {
+  color: #b3b3b3;
+}
+.customInput1Container .input,
+.textAreaContainer .input {
+  background: #f0f0f0;
+  height: 40px;
+  min-width: 340px;
+  font-size: 14px;
+  direction: rtl;
+}
+.customInput1Container .input::-moz-placeholder, .textAreaContainer .input::-moz-placeholder {
+  color: #717171;
+  font-size: 12px;
+}
+.customInput1Container .input::placeholder,
+.textAreaContainer .input::placeholder {
+  color: #717171;
+  font-size: 12px;
+}
+.customInput1Container .textArea,
+.textAreaContainer .textArea {
+  background: #f0f0f0;
+  min-width: 340px;
+  font-size: 14px;
+  direction: rtl;
+}
+.customInput1Container .textArea::-moz-placeholder, .textAreaContainer .textArea::-moz-placeholder {
+  color: #717171;
+  font-size: 14px;
+}
+.customInput1Container .textArea::placeholder,
+.textAreaContainer .textArea::placeholder {
+  color: #717171;
+  font-size: 14px;
+}/*# sourceMappingURL=CustomInput1.module.css.map */
